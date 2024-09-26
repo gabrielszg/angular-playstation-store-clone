@@ -3,7 +3,8 @@
         <app-card
             gameCover="{{game.cover}}"
             gameLabel="{{game.label}}"
-            gameType="{{game.type}}"
+            [gameMediaType]="game.mediaType"
+            [gamePlatforms]="game.platforms"
             gamePrice="{{game.price}}"
         />
 	}

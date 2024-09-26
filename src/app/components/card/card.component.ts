@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { CardLabelComponent } from './card-label/card-label.component';
 import { CardPricingComponent } from "./card-pricing/card-pricing.component";
+import { MediaType, Platform } from '../../data/dataFake';
 
 @Component({
   selector: 'app-card',
@@ -18,7 +19,10 @@ export class CardComponent {
   gameLabel: string = '';
 
   @Input()
-  gameType: string = 'Digital PS4';
+  gameMediaType!: MediaType;
+  
+  @Input()
+  gamePlatforms!: Platform[];
   
   @Input()
   gamePrice: string = 'R$ 399,90';
