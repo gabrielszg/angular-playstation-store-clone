@@ -13,14 +13,12 @@
 
 .menu-bar_logo {
     margin-left: 30px;
-    justify-content: flex-start;
-    white-space: nowrap;
-    z-index: 2;
-    max-width: 25vw;
 }
 
 .menu-bar_item {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
 }
