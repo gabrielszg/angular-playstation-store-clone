@@ -1,0 +1,17 @@
+@media screen and (max-width: 992px) {
+    .menu-bar_container {
+        flex-direction: column;
+        align-items: flex-start;
+        height: 115px;
+    }
+
+    .menu-bar_logo {
+        margin-top: 10px;
+    }
+
+    .menu-bar_item {
+        align-items: flex-start;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}

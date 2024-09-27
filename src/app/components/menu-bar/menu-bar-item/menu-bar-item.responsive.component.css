@@ -1,0 +1,11 @@
+@media screen and (max-width: 992px) { 
+    .menu-bar-item_container > ul > li {
+        padding: 4px;
+        margin-right: 0px;
+    }
+
+    .menu-bar-item_container > ul > li > a {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
